@@ -92,7 +92,7 @@ if [ -d "$script_path" ]; then
     loading_animation
 else
     custom_echo "ros2_create_qt_pkg not installed correctly!!" "red"
-    custom_echo "Please re-install it from github.com/mjlee111/ros2_create_qt_pkg" "red"
+    custom_echo "Please re-install it from github.com/mkdir-sweetiepie/ros2_create_qt_pkg" "red"
     exit 1
 fi
 custom_echo "Creating ROS GUI package. Package name : $package_name" "green"
